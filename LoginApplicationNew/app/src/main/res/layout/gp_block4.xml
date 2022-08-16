@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutTrack"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/white_rectangle_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintEnd_toStartOf="@id/layoutFinance"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/app_name"
+                android:padding="8dp"
+                android:src="@drawable/ic_track" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/track_application"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutFinance"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/white_rectangle_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/layoutTrack"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/app_name"
+                android:padding="8dp"
+                android:src="@drawable/ic_certificate" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/apply_certificate"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutHealth"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/white_rectangle_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintEnd_toStartOf="@id/layoutFinance"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layoutTrack">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/app_name"
+                android:padding="8dp"
+                android:src="@drawable/policy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/govt_schemes_yojna"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutComfort"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/white_rectangle_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/layoutTrack"
+            app:layout_constraintTop_toBottomOf="@+id/layoutFinance">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/app_name"
+                android:padding="8dp"
+                android:src="@drawable/ic_tax1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pay tax"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

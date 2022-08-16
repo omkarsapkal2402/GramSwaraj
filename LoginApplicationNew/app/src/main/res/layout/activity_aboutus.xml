@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".AboutusActivity" >
+
+    <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillViewport="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".aboutus_activity">
+
+            <include
+                android:id="@+id/include"
+                layout="@layout/toolbar"
+                tools:layout_editor_absoluteX="-16dp"
+                tools:layout_editor_absoluteY="-71dp" />
+
+            <FrameLayout
+                android:layout_width="377dp"
+                android:layout_height="680dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="95dp"
+                android:layout_marginRight="35dp"
+                android:background="#E8E8E8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="181dp"
+                    app:srcCompat="@drawable/logo9" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="200dp"
+                    android:text="आमच्याविषयी"
+                    android:textColor="#39779b"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="          जग आधुनिक तंत्रज्ञानाकडे प्रगती करत असताना. जिथे भारत मेक इन इंडिया - डिजिटल इंडिया आणि डिजिटल व्हिलेज च्या दिशेने वाटचाल करत आहे. अशावेळी महाराष्ट्रातील सर्व ग्रामपंचायतींना एका व्यासपीठावर आणून त्यांना एक वेगळी ओळख देण्याचा आमचा प्रयत्न आहे.\n            गाव, ग्रामपंचायत सदस्य, शाळा, आरोग्य केंद्र, अंगणवाडी, प्रेक्षणीय स्थळे, विकासकामे, गावातील तेजस्वी तारे, गावाची शान, प्रगतीशील शेतकऱ्यासोबत ग्रामपंचायत आणि गावाचा उत्सव या गोष्टींचा समावेश असेल .ज्य सरकारने जाहीर केलेल्या योजनांची माहिती आणि ग्रामपंचायतीमधील उपयुक्त मंच देखील प्रदर्शित केला जाईल."
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="500dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:text="जय महाराष्ट्र!!" />
+
+
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/my_navigation_items"/>
+</androidx.drawerlayout.widget.DrawerLayout>

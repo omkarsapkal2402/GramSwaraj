@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UPIActivity">
+
+    <EditText
+        android:id="@+id/amount_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_bg2"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_et"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_bg2"
+        android:hint="Name"
+        android:padding="10dp"
+        android:text="Grampanchayat Kandali" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_bg2"
+        android:hint="Note"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="155dp"
+        android:backgroundTint="@color/primary"
+        android:text="PAY"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="68dp"
+        android:fontFamily="@font/nunito"
+        android:gravity="center_horizontal"
+        android:text="GramSwaraj "
+        android:textColor="@color/primary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

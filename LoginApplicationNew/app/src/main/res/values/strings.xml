@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GramSwaraj</string>
+    <string name="track_application">Track Application</string>
+    <string name="govt_schemes_yojna">Govt. Schemes (Yojna)</string>
+    <string name="apply_certificate">Apply certificate</string>
+    <string name="kandali_village_is_located_in_achalpur_tehsil_of_amravati_district_in_maharashtra_india_it_is_situated_12km_away_from_sub_district_headquarter_achalpur_tehsildar_office_and_55km_away_from_district_headquarter_amravati_kandali_village_comes_under_melghat_assembly_constituency_and_amravati_parliamentary_constituency_n_n_read_more">Kandali village is located in Achalpur tehsil of Amravati district in Maharashtra, India. It is situated 12km away from sub-district headquarter Achalpur (tehsildar office) and 55km away from district headquarter Amravati. Kandali village comes under Melghat assembly constituency and Amravati parliamentary constituency. \n</string>
+
+    <array name="district">
+        <item>Amravati</item>
+        <item>Ahmednagar</item>
+        <item>Pune</item>
+        <item>Yavatmal</item>
+        <item>Nagpur</item>
+    </array>
+
+    <array name="taluka">
+        <item>Achalpur</item>
+        <item>Amravati</item>
+        <item>Chikhaldara</item>
+        <item>Chandur bazar</item>
+        <item>Daryapur</item>
+    </array>
+    <string name="title_activity_upiactivity">UPIActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="menu_drawer_open">Drawer Open</string>
+    <string name="menu_drawer_close">Drawer Close</string>
+</resources>

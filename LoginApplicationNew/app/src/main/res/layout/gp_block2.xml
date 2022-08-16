@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/round_corner_top">
+
+    <TextView
+        android:id="@+id/gp_officer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:text="Grampanchyat Administrator">
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gp_card1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/gp_officer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_card"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sarpancha"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95sp"
+            android:layout_marginTop="10sp"
+            android:text="Mrs. Savita Ahake"
+            android:textColor="@color/primary"
+            android:textSize="17dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95sp"
+            android:layout_marginTop="40sp"
+            android:text="Sarpanch, kandli"
+            android:textSize="14dp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gp_card2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/gp_card1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_card3"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/deputy"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95sp"
+            android:layout_marginTop="10sp"
+            android:text="Mr. Dilip Dhandare"
+            android:textColor="@color/primary"
+            android:textSize="17dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95sp"
+            android:layout_marginTop="40sp"
+            android:text="Deputy Sarpanch, kandli"
+            android:textSize="14dp"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gp_card3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/gp_card2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_card2"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="100dp">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hasan"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95sp"
+            android:layout_marginTop="10sp"
+            android:text="Mr. Vinod More"
+            android:textColor="@color/primary"
+            android:textSize="17dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95sp"
+            android:layout_marginTop="40sp"
+            android:text="Gramsevak, Kandli"
+            android:textSize="14dp" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

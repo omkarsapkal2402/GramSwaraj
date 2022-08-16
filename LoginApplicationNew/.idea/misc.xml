@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1015" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/arrow_down.xml" value="0.144" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/arrow_up.xml" value="0.144" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/bg1.xml" value="0.144" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/edittext_bg.xml" value="0.144" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/edittext_bg2.xml" value="0.1465" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/popup_bg.xml" value="0.144" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/drawable/yojna_bg.xml" value="0.144" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/font/nunito.xml" value="0.25846153846153846" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_aboutus.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_admin_home.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_admin_login.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_apply_certificate_list.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_birth_reg_form.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_clicked_item.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_forms.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_gallery.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_gp_block3.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_gp_block32.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_list_documents.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_login_page.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_main.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_pmgayactivity.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_track_application.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_upiactivity.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_upiactivity2.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_webview.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/activity_yojna.xml" value="0.1" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/each_item.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/fragment_first.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/fragment_second.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/gp_block2.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/gp_block3.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/gp_block4.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/nav_header.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/nested_item.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/popup.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/popup_contact.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/row_items.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/splashfile.xml" value="0.228125" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/layout/toolbar.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/menu/my_navigation_items.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1015" />
+        <entry key="..\:/Users/OMKAR/AndroidStudioProjects/LoginApplicationNew/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1015" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

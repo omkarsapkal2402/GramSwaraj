@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewApplicationId">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application Submitted Successfully"
+        android:textColor="@color/primary"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Application Id -"
+        android:textSize="16dp"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvApplicationId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="16dp"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Date"
+        android:textSize="16dp"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvSubmitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="16dp"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnBackHomeScr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary"
+        android:text="Back to Home Screen" />
+
+
+</LinearLayout>

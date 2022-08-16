@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp">
+
+
+        <ImageView
+            android:id="@+id/left_icon"
+            android:layout_width="71dp"
+            android:layout_height="57dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/logo7" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-240dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/right_icon"
+            android:text="ग्रामस्वराज"
+            android:textAlignment="center"
+            android:textColor="#4d4d4d"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/right_icon"
+            android:layout_width="71dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="314dp"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

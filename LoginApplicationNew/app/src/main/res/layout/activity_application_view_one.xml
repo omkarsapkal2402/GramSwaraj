@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout2"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppbar2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-15dp">
+
+                <include
+                    layout="@layout/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" />
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/tvappDetailsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appBar"
+            android:text="Application Details"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+
+        <TableLayout
+            android:id="@+id/tbLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvappDetailsTitle">
+
+            <TableRow
+
+                android:id="@+id/row1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Application ID"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappID"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Submit Date"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappSubmitDt"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappName"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Mother Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappMother"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Father Name"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappFather"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Date of Birth"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappDob"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Gender"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappGender"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Birth Place"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappPlace"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Taluka"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappTaluka"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="District"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/viewappDist"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text=" " />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tbLayout"
+            android:backgroundTint="@color/primary"
+            android:text="Back">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/my_navigation_items"/>
+</androidx.drawerlayout.widget.DrawerLayout>

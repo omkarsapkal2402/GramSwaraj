@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375579812326",
+    "project_id": "gramswaraj-4912f",
+    "storage_bucket": "gramswaraj-4912f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375579812326:android:1fa491024f99ae448af627",
+        "android_client_info": {
+          "package_name": "com.example.loginapplicationnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375579812326-0cutavsguie1g30d6u7gaid7bg3vrfdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxA7zcD12ofFn8duWnxXBi0frS28Xt9K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375579812326-0cutavsguie1g30d6u7gaid7bg3vrfdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

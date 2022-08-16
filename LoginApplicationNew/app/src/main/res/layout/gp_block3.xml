@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/block3_bg"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="10dp"
+        android:text="Kandali Grampanchayat"
+        android:textColor="@color/primary"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardElevation="5dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primary"
+            android:padding="8dp"
+            android:text="@string/kandali_village_is_located_in_achalpur_tehsil_of_amravati_district_in_maharashtra_india_it_is_situated_12km_away_from_sub_district_headquarter_achalpur_tehsildar_office_and_55km_away_from_district_headquarter_amravati_kandali_village_comes_under_melghat_assembly_constituency_and_amravati_parliamentary_constituency_n_n_read_more"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

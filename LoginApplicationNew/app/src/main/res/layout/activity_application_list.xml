@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout2"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppbar2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-15dp">
+
+            <include
+                layout="@layout/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appListCV1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/appBar">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvappID1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application ID - "
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/RetrieveappID1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvappID1"
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text=" " />
+
+                <TextView
+                    android:id="@+id/tvappName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvappID1"
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text="Applicant Name - " />
+
+                <TextView
+                    android:id="@+id/RetrieveappName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrieveappID1"
+                    android:layout_toRightOf="@+id/tvappName1"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvsubmitDate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvappName1"
+                    android:text="Submit Date - "
+                    android:layout_margin="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/RetrievesubmitDate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrieveappName1"
+                    android:layout_toRightOf="@+id/tvsubmitDate1"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/btnView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvsubmitDate1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="#00B0FF"
+                    android:text="View" />
+
+                <Button
+                    android:id="@+id/btnApprove1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrievesubmitDate1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/btnView1"
+                    android:backgroundTint="#00E676"
+                    android:text="Approve" />
+
+                <Button
+                    android:id="@+id/btnReject1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrievesubmitDate1"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/btnApprove1"
+                    android:backgroundTint="#F50057"
+                    android:text="Reject" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--cardview 2-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appListCV2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/appListCV1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvappID2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application ID - "
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/RetrieveappID2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvappID2"
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text=" " />
+
+                <TextView
+                    android:id="@+id/tvappName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvappID2"
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text="Applicant Name - " />
+
+                <TextView
+                    android:id="@+id/RetrieveappName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrieveappID2"
+                    android:layout_toRightOf="@+id/tvappName2"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvsubmitDate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvappName2"
+                    android:text="Submit Date - "
+                    android:layout_margin="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/RetrievesubmitDate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrieveappName2"
+                    android:layout_toRightOf="@+id/tvsubmitDate2"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/btnView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvsubmitDate2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="#00B0FF"
+                    android:text="View" />
+
+                <Button
+                    android:id="@+id/btnApprove2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrievesubmitDate2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/btnView2"
+                    android:backgroundTint="#00E676"
+                    android:text="Approve" />
+
+                <Button
+                    android:id="@+id/btnReject2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrievesubmitDate2"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/btnApprove2"
+                    android:backgroundTint="#F50057"
+                    android:text="Reject" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--cardview 3-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appListCV3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/appListCV2">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvappID3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application ID - "
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/RetrieveappID3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvappID3"
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text=" " />
+
+                <TextView
+                    android:id="@+id/tvappName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvappID3"
+                    android:textSize="15dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/black"
+                    android:text="Applicant Name - " />
+
+                <TextView
+                    android:id="@+id/RetrieveappName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrieveappID3"
+                    android:layout_toRightOf="@+id/tvappName3"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/tvsubmitDate3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvappName3"
+                    android:text="Submit Date - "
+                    android:layout_margin="5dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/RetrievesubmitDate3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrieveappName3"
+                    android:layout_toRightOf="@+id/tvsubmitDate3"
+                    android:text=" "
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/btnView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvsubmitDate3"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:backgroundTint="#00B0FF"
+                    android:text="View" />
+
+                <Button
+                    android:id="@+id/btnApprove3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrievesubmitDate3"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/btnView3"
+                    android:backgroundTint="#00E676"
+                    android:text="Approve" />
+
+                <Button
+                    android:id="@+id/btnReject3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RetrievesubmitDate3"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@+id/btnApprove3"
+                    android:backgroundTint="#F50057"
+                    android:text="Reject" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/my_navigation_items"/>
+</androidx.drawerlayout.widget.DrawerLayout>
